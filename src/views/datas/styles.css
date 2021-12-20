@@ -1,0 +1,227 @@
+.image-1 {
+  width: 100%;
+  height: auto;
+}
+
+h1 {
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: normal;
+}
+
+.header {
+  background: #ed3237;
+  padding: 2rem 0;
+  color: white;
+  left: 0;
+  top: 0;
+  right: 0;
+  width: 100%;
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+}
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.logo-nav-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo img {
+  width: 150px;
+}
+
+.navigation ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.navigation ul li {
+  display: inline-block;
+}
+
+.navigation ul li a {
+  display: block;
+  padding: 0.5rem 1rem;
+}
+p {
+  margin-bottom: 1.6em;
+}
+
+.navigation ul li a:hover {
+  background: rgb(136, 73, 73);
+  transition: 0.5s linear;
+  border-radius: 5px;
+}
+
+.logo {
+  letter-spacing: 5px;
+  font-size: 1.5rem;
+  size: 10%;
+}
+
+.footpage {
+  width: 100%;
+  background-color: #003399;
+  color: white;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+footer {
+  clear: both;
+  width: 100%;
+  position: 100%;
+}
+.footpage .footpage-1 {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 50px;
+  padding: 45px 0px;
+}
+
+.footpage .footpage-1 .box figure {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footpage .footpage-1 .box figure img {
+  width: 150px;
+}
+
+.footpage .footpage-1 .box h2 {
+  color: white;
+  margin-bottom: 25px;
+  font-size: 20px;
+}
+
+.footpage .footpage-1 .box p {
+  color: #efefef;
+  margin-bottom: 10px;
+}
+
+.footpage .footpage-1 .red-social a {
+  display: inline-block;
+  text-decoration: none;
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  color: #fff;
+  margin-right: 10px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
+.footpage .footpage-1 .red-social a:hover {
+  color: aqua;
+}
+
+.footpage .footpage-2 {
+  background-color: #0a1a2a;
+  padding: 15px 10px;
+  text-align: center;
+  color: #fff;
+}
+
+.footpage .footpage-2 small {
+  font-size: 15px;
+}
+
+.main {
+  padding-top: 30%;
+}
+
+.facebook {
+  height: 2em;
+}
+
+.card {
+  width: 300px;
+  height: 450px;
+  background-color: #f5f2e9;
+  border-radius: 20px;
+  box-shadow: rgba(26, 26, 139, 0.849) 0px 30px 60px -12px,
+    rgba(0, 0, 0, 0.3) 0px 18px 36px -18px;
+  transition: all 0.5s;
+  display: flex;
+  margin: 10px;
+  display: inline-block;
+  font-family: 'Roboto', sans-serif;
+  letter-spacing: normal;
+}
+
+.card:hover {
+  transform: translateY(-20px);
+}
+
+.card-image {
+  width: auto;
+  height: 200px;
+}
+
+.card-image img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px 0px 0px 10px;
+}
+
+.card-content {
+  padding: 10px 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+
+.card-price {
+  margin-top: 0;
+}
+
+h1,
+h2 {
+  text-align: center -10px;
+}
+
+.appo {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f44336;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+}
+
+.card-title {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-size: 18px;
+  color: black;
+  font-weight: 500;
+}
+
+.appo2 {
+  color: red;
+}
+
+.top1 {
+  text-align: left;
+}
+
+.hola {
+  text-align: center;
+}
